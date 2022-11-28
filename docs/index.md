@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# 欢迎来到电子制作社wiki学习
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+本站点主要用于电子制作社学员入门学习使用，设计知识点包括编程语言C、C++；嵌入式硬件单片机；电子设计PCB软件的应用等。
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

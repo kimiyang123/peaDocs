@@ -2,3 +2,16 @@ site_name: 电子制作社入门学习资源
 
 theme:
   name: material
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+
+  - pymdownx.details
