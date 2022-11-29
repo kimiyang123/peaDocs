@@ -2,6 +2,14 @@ site_name: 电子制作社入门学习资源
 
 theme:
   name: material
+  # name: rtd-dropdown 
+
+  nav:
+    - Home: index.md
+    - C语言基础学习:
+        - C语言的开发工具: CurseC/cBuildTools.md
+        - 变量: CurseC/02Cvaialble.md
+      
 
 
 # Extensions
@@ -10,8 +18,23 @@ markdown_extensions:
   - codehilite:
       guess_lang: true
       linenums: true
-  - def_list
-  - footnotes
+  - toc:
+      permalink: true
+  # - footnotes
   - meta
-
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde

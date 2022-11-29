@@ -5,7 +5,7 @@
 ```c
 int main()
 {
-
+    printf("Hello word");
 
 }
 ```
